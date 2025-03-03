@@ -1,19 +1,19 @@
-// import { initializeApp } from 'firebase/app';
-// import { getAuth } from 'firebase/auth';
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 
-// // Your web app's Firebase configuration
-// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "YOUR_API_KEY",
-//   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "YOUR_AUTH_DOMAIN",
-//   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "YOUR_PROJECT_ID",
-//   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "YOUR_STORAGE_BUCKET",
-//   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "YOUR_MESSAGING_SENDER_ID",
-//   appId: import.meta.env.VITE_FIREBASE_APP_ID || "YOUR_APP_ID",
-//   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "YOUR_MEASUREMENT_ID"
-// };
+// web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyBE9gOgQfh-VBmUlOvSFwL_v6U9JtPiqr8",
+    authDomain: "login-register-8e002.firebaseapp.com",
+    projectId: "login-register-8e002",
+    storageBucket: "login-register-8e002.firebasestorage.app",
+    messagingSenderId: "361076945363",
+    appId: "1:361076945363:web:7c6dbab84a079a0a057f26",
+    measurementId: "G-JSJQ78E5Y4"
+  };
 
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// export const auth = getAuth(app);
-// export default app;
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export default app;
